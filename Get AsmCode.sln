@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Get AsmCode", "Get AsmCode\Get AsmCode.vcxproj", "{B40E10D0-CFA4-4961-98E3-B52AF3E92C17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug 32-bit|Win32 = Debug 32-bit|Win32
+		Release 32-bit|Win32 = Release 32-bit|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B40E10D0-CFA4-4961-98E3-B52AF3E92C17}.Debug 32-bit|Win32.ActiveCfg = Debug 32-bit|Win32
+		{B40E10D0-CFA4-4961-98E3-B52AF3E92C17}.Debug 32-bit|Win32.Build.0 = Debug 32-bit|Win32
+		{B40E10D0-CFA4-4961-98E3-B52AF3E92C17}.Release 32-bit|Win32.ActiveCfg = Release 32-bit|Win32
+		{B40E10D0-CFA4-4961-98E3-B52AF3E92C17}.Release 32-bit|Win32.Build.0 = Release 32-bit|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

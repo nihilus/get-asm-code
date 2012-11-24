@@ -1,0 +1,79 @@
+﻿生成启动时间为 2012/6/19 16:20:37。
+     1>项目“F:\IDA OD Plugins\Get AsmCode\Get AsmCode\Get AsmCode.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Build\\Debug 32-bit\Get AsmCode.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         G:\Microsoft Visual Studio 2010\VC\bin\CL.exe /c /IInclude /I"G:\Crackl@b\idasdk61\Include\\" /ZI /nologo /W3 /WX- /Od /Oi /Oy /D WIN32 /D _WINDOWS /D STRICT /D _USRDLL /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D MAXSTR=1024 /D NO_OBSOLETE_FUNCS /D __NT__ /D __IDP__ /D _WINDLL /D _MBCS /GF /Gm /EHa /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Build\\Debug 32-bit\\" /Fd"Build\\Debug 32-bit\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt "Source\Get AsmCode.cpp" /Wp64 /GA
+     1>cl : 命令行 warning D9035: “Wp64”选项已否决，并将在将来的版本中移除
+         Get AsmCode.cpp
+     1>f:\ida od plugins\get asmcode\get asmcode\source\get asmcode.cpp(72): warning C4305: “参数”: 从“int”到“bool”截断
+     1>f:\ida od plugins\get asmcode\get asmcode\source\get asmcode.cpp(53): warning C4101: “buffer”: 未引用的局部变量
+     1>f:\ida od plugins\get asmcode\get asmcode\source\get asmcode.cpp(71): warning C4101: “clean_buf”: 未引用的局部变量
+     1>f:\ida od plugins\get asmcode\get asmcode\source\get asmcode.cpp(158): warning C4101: “myBufferSize”: 未引用的局部变量
+     1>f:\ida od plugins\get asmcode\get asmcode\source\get asmcode.cpp(160): warning C4101: “as_stack”: 未引用的局部变量
+     1>g:\crackl@b\idasdk61\include\pro.h(1163): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 g:\crackl@b\idasdk61\include\pro.h(1156): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=uchar
+                 ]
+                 g:\crackl@b\idasdk61\include\pro.h(1964): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=uchar
+                 ]
+     1>g:\crackl@b\idasdk61\include\pro.h(1163): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 g:\crackl@b\idasdk61\include\pro.h(1156): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=area_t
+                 ]
+                 g:\crackl@b\idasdk61\include\area.hpp(71): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=area_t
+                 ]
+     1>g:\crackl@b\idasdk61\include\pro.h(1163): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 g:\crackl@b\idasdk61\include\pro.h(1156): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=uval_t
+                 ]
+                 g:\crackl@b\idasdk61\include\funcs.hpp(710): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=uval_t
+                 ]
+     1>g:\crackl@b\idasdk61\include\pro.h(1163): warning C4267: “初始化”: 从“size_t”转换到“ssize_t”，可能丢失数据
+                 g:\crackl@b\idasdk61\include\pro.h(1156): 编译类 模板 成员函数“void qvector<T>::shift_down(T *,T *,size_t)”时
+                 with
+                 [
+                     T=char
+                 ]
+                 g:\crackl@b\idasdk61\include\pro.h(1594): 参见对正在编译的类 模板 实例化“qvector<T>”的引用
+                 with
+                 [
+                     T=char
+                 ]
+                 g:\crackl@b\idasdk61\include\kernwin.hpp(1362): 参见对正在编译的类 模板 实例化“_qstring<qchar>”的引用
+                 with
+                 [
+                     qchar=char
+                 ]
+       ResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\IDA OD Plugins\Get AsmCode\Build\\Debug 32-bit\Get AsmCode.plw) 与 Linker 的 OutputFile 属性值(F:\IDA OD Plugins\Get AsmCode\Build\Debug 32-bit\Get AsmCode-6.1-d.plw)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         G:\Microsoft Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\IDA OD Plugins\Get AsmCode\Build\\Debug 32-bit\Get AsmCode-6.1-d.plw" /INCREMENTAL /NOLOGO /LIBPATH:"G:\Crackl@b\idasdk61\Lib\x86_win_vc_32\x86_win_vc_32" "G:\Crackl@b\idasdk61\Lib\x86_win_vc_32\ida.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"F:\IDA OD Plugins\Get AsmCode\Build\\Debug 32-bit\Get AsmCode.pdb" /MAP:"F:\IDA OD Plugins\Get AsmCode\Build\\Debug 32-bit\Get AsmCode.mpv" /SUBSYSTEM:WINDOWS /OPT:NOREF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\IDA OD Plugins\Get AsmCode\Build\\Debug 32-bit\Get AsmCode-6.1-d.lib" /MACHINE:X86 /DLL "Build\\Debug 32-bit\Get AsmCode.res"
+         "Build\\Debug 32-bit\Get AsmCode.obj" /export:PLUGIN 
+         Get AsmCode.vcxproj -> F:\IDA OD Plugins\Get AsmCode\Build\\Debug 32-bit\Get AsmCode.plw
+       FinalizeBuildStatus:
+         正在删除文件“Build\\Debug 32-bit\Get AsmCode.unsuccessfulbuild”。
+         正在对“Build\\Debug 32-bit\Get AsmCode.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\IDA OD Plugins\Get AsmCode\Get AsmCode\Get AsmCode.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.61
