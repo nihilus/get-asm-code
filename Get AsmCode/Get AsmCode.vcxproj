@@ -58,6 +58,8 @@
     <ExtensionsToDeleteOnClean>$(ExtensionsToDeleteOnClean)%3b*.plw</ExtensionsToDeleteOnClean>
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
+    <LibraryPath>..\..\..\\lib\x86_win_vc_32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <IncludePath>..\..\..\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug 32-bit|Win32'">
     <ClCompile>
