@@ -189,6 +189,7 @@ void runPlugin(int arg)
 		goto __Faild;
 	}
 	idbpath = database_idb;
+	#undef strcat
 	asmfile = strcat(idbpath,"_part.asm");
 	fp = qfopen(asmfile, "w");
 	gen_file(OFILE_ASM,fp,saddr,eaddr,0); //生成asm文件

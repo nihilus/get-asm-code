@@ -31,9 +31,6 @@
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(VCInstallDir)VCWizards\AppWiz\IDA Pro\MyProperties.props" />
-  </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug 32-bit|Win32'">
     <Import Project="$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props')" />
   </ImportGroup>
@@ -50,6 +47,8 @@
     <ExtensionsToDeleteOnClean>$(ExtensionsToDeleteOnClean)%3b*.plw</ExtensionsToDeleteOnClean>
     <LinkIncremental>true</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
+    <IncludePath>..\..\..\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>..\..\..\\lib\x86_win_vc_32;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 32-bit|Win32'">
     <OutDir>$(SolutionDir)Build\$(IdaSdkVersion)\$(Configuration)</OutDir>
@@ -156,9 +155,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Include\Get AsmCode.h" />
     <ClInclude Include="Include\Resource.h" />
   </ItemGroup>
@@ -172,7 +168,4 @@
     <ClCompile Include="Source\Get AsmCode.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.CPP.targets" />
-  <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VCInstallDir)VCWizards\AppWiz\IDA Pro\MyProperties.targets" />
-  </ImportGroup>
 </Project>
