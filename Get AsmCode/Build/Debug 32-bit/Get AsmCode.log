@@ -1,5 +1,0 @@
-﻿C:\Program\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-C:\Program\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  LINK : program database C:\Hex-Rays.IDA.Pro.Advanced.v6.5\idasdk\plugins\get-asm-code\Build\Debug 32-bit\Get AsmCode.pdb missing; performing full link
-     Creating library C:\Hex-Rays.IDA.Pro.Advanced.v6.5\idasdk\plugins\get-asm-code\Build\\Debug 32-bit\Get AsmCode.lib and object C:\Hex-Rays.IDA.Pro.Advanced.v6.5\idasdk\plugins\get-asm-code\Build\\Debug 32-bit\Get AsmCode.exp
-  Get AsmCode.vcxproj -> C:\Hex-Rays.IDA.Pro.Advanced.v6.5\idasdk\plugins\get-asm-code\Build\\Debug 32-bit\Get AsmCode.plw
