@@ -162,7 +162,7 @@ void runPlugin(int arg)
 	char * asmfile;
 	FILE *fp ;
 	func_t *func;
-	char funcName[256];
+	qstring funcName;
 	 
 	ea_t eaddr, saddr , currentea= get_screen_ea();
 	msg("\nGet AsmCode Start:\n");
@@ -179,9 +179,9 @@ void runPlugin(int arg)
 	eaddr = func->endEA;
 	saddr = func->startEA;
 	
-	get_func_name(saddr,funcName,sizeof(funcName)-1);
+	get_func_name2(&funcName, saddr);
 
-	msg("Function %s start at 0x%0.8X ,end at 0x%0.8X .\n",funcName,saddr,eaddr);
+	msg("Function %s start at 0x%0.8X ,end at 0x%0.8X .\n",funcName.c_str(),saddr,eaddr);
 
 	if (eaddr == BADADDR || saddr == BADADDR)
 	{
